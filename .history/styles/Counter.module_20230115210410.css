@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    height: 100vh;
+}
+
+
+.title {
+    color: pink;
+    font-size: var(--large-header-font);
+    margin: 24px;
+    margin-top: 0px;
+}
+
+.username {
+    color: yellow;
+    font-size: var(--medium-header-font);
+}
+
+.request {
+    font-size: var(--small-header-font);
+}
+
+.counter {
+    color: green;
+    font-size: var(--extra-large-header-font);
+    font-weight: bold;
+}
+
+.buttons>button {
+    justify-content: center;
+    background-color: aqua;
+    border: none;
+    width: 80px;
+    border-radius: 1000px;
+    font-size: 24px;
+    font-family: var(--new-font);
+    margin: 8px;
+    padding: 4px;
+}

@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: pink;
+}
+
+.username {
+    color: yellow;
+}
+
+.counter {
+    color: green;
+}
+
+.increment {
+    background-color: aqua;
+}
+
+.decrement {
+    background-color: purple;
+}

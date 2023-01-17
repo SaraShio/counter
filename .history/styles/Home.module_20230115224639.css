@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  color: var(--medium-purple);
+  font-size: var(--large-header-font);
+  font-family: var(--new-font);
+}
+
+.title {
+  font-size: var(--extra-large-header-font);
+  font-weight: bold;
+}
+
+.main>input {
+  width: 300px;
+  height: 50px;
+  background-color: var(--light-purple);
+  border: none;
+  color: blue;
+}
+
+.submit {
+  background-color: var(--light-blue);
+  border: 0.5px solid var(--deep-blue);
+  width: 120px;
+  border-radius: 1000px;
+  font-size: var(--small-header-font);
+  font-family: var(--new-font);
+  margin: 8px;
+  padding: 4px;
+}

@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: pink;
+}
+
+.username {
+    color: yellow;
+}
+
+.counter {
+    color: green;
+}
+
+.buttons>button {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    border: none;
+    width: 80px;
+    font-size: 16px;
+    font-family: var();
+}

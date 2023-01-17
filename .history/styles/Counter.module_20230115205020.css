@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    height: 100vh;
+}
+
+.title {
+    color: pink;
+    font-size: var(--large-header-font);
+}
+
+.username {
+    color: yellow;
+    font-size: var(--medium-header-font);
+}
+
+.counter {
+    color: green;
+}
+
+.buttons>button {
+    justify-content: center;
+    background-color: aqua;
+    border: none;
+    width: 120px;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-family: var(--new-font);
+    margin: 8px;
+    padding: 4px;
+}
+
+.increment,
+.decrement {
+    font-size: 40px;
+}

@@ -1,0 +1,52 @@
+.body {
+    background-color: lavender;
+    height: 100vh;
+    font-family: var(--new-font);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.title {
+    color: var(--purple);
+    font-size: var(--extra-large-header-font);
+    padding: var(--padding);
+}
+
+.username {
+    color: var(--medium-purple);
+    font-size: var(--large-header-font);
+    padding: var(--padding);
+}
+
+.request {
+    font-size: var(--small-header-font);
+    padding: var(--padding);
+    color: var(--dark-gray);
+
+}
+
+.counter {
+    color: var(--deep-blue);
+    font-size: var(--extra-large-header-font);
+    font-weight: bold;
+    padding: var(--padding);
+
+}
+
+.buttons>button {
+    background-color: (--light-blue);
+    border: none;
+    width: 80px;
+    border-radius: 1000px;
+    font-size: 24px;
+    font-family: var(--new-font);
+    margin: 8px;
+    padding: 4px;
+}
